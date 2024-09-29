@@ -5,8 +5,3 @@ services:
     build: .
     ports:
       - "1234:3005"
-    volumes:
-      - .:/app
-      - /app/node_modules
-    stdin_open: true
-    tty: true
